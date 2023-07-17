@@ -14,10 +14,10 @@ int main(void)
 
 	while (a < 10)
 	{
-		putchar("%d", a);
+		printf("%d", a);
 		a++;
 	}
-	putchar("\n");
+	printf("\n");
 
 	return (0);
 }
