@@ -24,7 +24,7 @@ int main(void)
 				putchar((f % 10) + 48);
 				putchar(' ');
 				putchar((f1 / 10) + 48);
-				putchar((f % 10) + 48);
+				putchar((f1 % 10) + 48);
 
 				if (f + f1 != 197)
 				{
