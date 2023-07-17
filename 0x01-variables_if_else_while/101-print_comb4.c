@@ -29,11 +29,11 @@ int main(void)
 					putchar(a3 + 48);
 				}
 
-				if (a + a2 + a3 != 24)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+					if (a + a2 + a3 != 24)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				a3++;
 			}
 			a2++;
