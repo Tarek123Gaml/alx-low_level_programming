@@ -4,9 +4,9 @@
 /**
  * main - entry point
  *
- * Description: prints _putchar
+ * Description: prints _putchar using putchar prototype
  *
- * Return: 0
+ * Return: Always 0 (seccess)
 */
 
 int main(void)
