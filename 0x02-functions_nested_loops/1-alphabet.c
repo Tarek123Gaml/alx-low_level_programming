@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphapet - utilize on the _putchar function to print
- * the alphapet a to z
- *
- * Return: print a to z
+ * print_alphabet - utilize on the _putchar function to print
+ *		the alphabet a - z
 */
 
 void print_alphabet(void)
