@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * _isalpha - function that chick character is alphabet
