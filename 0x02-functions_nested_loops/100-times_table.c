@@ -26,8 +26,18 @@ void print_times_table(int n)
 
 				if (a3 < 10)
 					_putchar(' ');
-				else
+
+				if (a3 < 100)
+					_putchar(' ');
+
+				if (a3 >= 100)
+				{
+					_putchar((a3 / 100) + 48);
+					_putchar((43 / 10) % 10 + 48);
+				}
+				if (a3 > 9 && a3 < 100)
 					_putchar((a3 / 10) + 48);
+
 				_putchar((a3 % 10) + 48);
 			}
 			_putchar('\n');
