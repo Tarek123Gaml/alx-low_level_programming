@@ -9,7 +9,7 @@
  * Return: Always 0.
 */
 
-void add(int n, int m)
+int add(int n, int m)
 {
 	int a = n + m;
 
