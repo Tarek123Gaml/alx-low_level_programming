@@ -16,7 +16,7 @@ int main(void)
 	{
 		sum = a1 + a2;
 
-		if (sum > 4000)
+		if (sum > 4000000)
 			break;
 
 		if (sum % 2 == 0)
