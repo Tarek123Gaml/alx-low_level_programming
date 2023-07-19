@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * natural_c - check the code.
+ * main - check the code.
  *
  * Return: Always 0.
 */
 
-void natural_c(void)
+int main(void)
 {
 	int a, sum;
 
@@ -16,4 +16,6 @@ void natural_c(void)
 			sum += a;
 	}
 	printf("%d\n",sum);
+
+	return (0);
 }
