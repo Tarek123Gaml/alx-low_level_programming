@@ -15,5 +15,5 @@ void natural_c(void)
 		if (a % 3 == 0 || a % 5 == 0)
 			sum += a;
 	}
-	printf(sum);
+	printf("%d\n",sum);
 }
