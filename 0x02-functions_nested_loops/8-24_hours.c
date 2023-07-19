@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * times_table - check the cod
+ * jack_bauer - check the code
  *
  * Return: Always 0.
 */
 
-void times_table(void)
+void jack_bauer(void)
 {
 	for (h = 0; h < 24; h++)
 	{
