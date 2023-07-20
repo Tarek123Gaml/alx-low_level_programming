@@ -22,7 +22,7 @@ int main(void)
 			printf("%d", a);
 		if (a != 100)
 			printf(" ");
-		else 
+		else
 			printf("\n");
 	}
 
