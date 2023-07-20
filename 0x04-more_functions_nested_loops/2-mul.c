@@ -1,12 +1,15 @@
 #include "main.h"
 
 /**
- * main - check the code
- *@a @b: takes inputs
+ * mul - check the code
+ *
+ * @a: takes inputs
+ * @b: takes inputs
+ *
  * Return: Always 0.
 */
 
 int mul(int a, int b)
 {
-	return (a * b)
+	return (a * b);
 }
