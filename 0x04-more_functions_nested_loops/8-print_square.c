@@ -3,6 +3,8 @@
 /**
  * print_square - print size square
  *
+ * @size: takes input
+ *
  * Return: 0
 */
 
