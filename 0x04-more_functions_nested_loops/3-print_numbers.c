@@ -6,7 +6,7 @@
  * Return: Always 0.
 */
 
-oid print_numbers(void)
+void print_numbers(void)
 {
 	int a = 0;
 
