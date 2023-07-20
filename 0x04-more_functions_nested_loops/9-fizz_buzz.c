@@ -12,11 +12,11 @@ void fizz_buzz(void)
 
 	for (a = 1; a <= 100; a++)
 	{
-		if (a % 3 == 0 && a % 2 != 0)
+		if (a % 3 == 0 && a % 5 != 0)
 			printf("Fizz");
-		else if (a % 3 != 0 && a % 2 == 0)
+		else if (a % 3 != 0 && a % 5 == 0)
 			printf("Buzz");
-		else if (a % 3 == 0 && a % 2 == 0)
+		else if (a % 3 == 0 && a % 5 == 0)
 			printf("FizzBuzz");
 		else
 			printf("%d", a);
