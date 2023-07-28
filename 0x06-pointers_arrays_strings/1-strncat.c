@@ -13,7 +13,7 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int c, c1;
+	int c, i;
 
 	c = 0;
 
