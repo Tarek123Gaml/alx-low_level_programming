@@ -17,10 +17,10 @@ char *leet(char *s)
 
 	while (*s)
 	{
-		for (i = 0, i < 5, i++)
+		for (i = 0; i < sizeof(k) / sizeof(char); i++)
 		{
 			if (*s == k[i] || *s == k[i] + 32)
-				*s = v[i] + 48;
+				*s = 48 + v[i];
 		}
 		s++;
 	}
