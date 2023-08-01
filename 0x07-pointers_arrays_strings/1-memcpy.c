@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_memcpy - return order
+ * _memcpy - return order
  *
  * @dest: takes inputs
  * @src: takes inputs
@@ -12,7 +12,7 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int i;
+	unsigned int i;
 
 	for (i = 0; i < n; i++)
 	{
