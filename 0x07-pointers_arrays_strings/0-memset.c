@@ -1,4 +1,4 @@
-#include <stdio.c>
+#include "main.h"
 
 /**
  * _memset - function print order
@@ -12,9 +12,9 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
+	unsigned int i;
 
-	for (i = 0; i < b; i++)
+	for (i = 0; i <= b; i++)
 	{
 		s[i] = b;
 	}
