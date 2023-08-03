@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _is_prime_number - check if n is prime number
+ * is_prime_number - check if n is prime number
  *
  * @n: takes input
  * @other: takes input
@@ -10,7 +10,7 @@
 */
 
 int ch(int n, int other);
-int _is_prime_number(int n)
+int is_prime_number(int n)
 {
 	return (ch(n, 2));
 }
