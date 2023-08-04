@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i, result = 0;
+	int result = 0;
 
 	if (argc != 3)
 	{
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		print("%d\n",argv[1] + argv[2]);
+		print("%d\n", argv[1] + argv[2]);
 	}
 
 	return (0);
