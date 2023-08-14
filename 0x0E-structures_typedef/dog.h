@@ -1,20 +1,18 @@
 #ifndef DOG_H
 #define DOG_H
-
 /**
- * strcut dog - a dog struct
- * @name: name dog
- * @owner: name owner
- * @age: age dog
+ * struct dog - dog data
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: name of the owner of the dog
  *
- * Description: that function take name and owner and age for dog
-*/
-
-struct dog
+ * Description: Defines metadata about the dog and type of dog's struct
+ */
+typedef struct dog
 {
 	char *name;
-	char *owner;
 	float age;
+	char *owner;
 };
 
 #endif
