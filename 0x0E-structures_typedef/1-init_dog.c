@@ -3,21 +3,22 @@
 #include "dog.h"
 
 /**
- * init_dog - function struct
- * @d: struct dog
+ * init_dog - dog structure
+ * @d: the struct
  * @name: dog's name
  * @age: dog's age
- * @owner: dog's owner
-*/
+ * @owner: the owner of dog
+ */
+
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d == NULL)
-		;
-	else
-	{
-		d->name = name;
-		d->age = age;
-		d->owner = owner;
-	}
+  if (d == NULL)
+    ;
+  else
+    {
+      d->name = name;
+      d->age = age;
+      d->owner = owner;
+    }
 }
