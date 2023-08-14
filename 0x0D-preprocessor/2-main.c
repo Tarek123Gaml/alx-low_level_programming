@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * main - main function
+/**
+ * main - prin tname current file
  *
- * Return: always 0
-*/
+ * Return: Always 0
+ */
 
 int main(void)
 {
