@@ -4,6 +4,8 @@
  * pop_listint - delit first element
  *
  * @head: head of list
+ *
+ * Return: number
  */
 
 int pop_listint(listint_t **head)
