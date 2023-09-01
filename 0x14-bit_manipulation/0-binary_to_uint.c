@@ -1,7 +1,13 @@
 #include <stdio.h>
 #include "main.c"
 
-/***/
+/**
+ * binary_to_uint - convert binary to unit
+ *
+ * @b: input
+ *
+ * Return: binary number
+*/
 
 unsigned int binary_to_uint(const char *b)
 {
