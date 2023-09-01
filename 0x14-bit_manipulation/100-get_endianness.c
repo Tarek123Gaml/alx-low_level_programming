@@ -3,11 +3,16 @@
 /**
  * get_endianness - returns the endianness of the system
  *
- * Return: 0 if big endian, 1 if small
+ * Return: 0 if big endian, 1 if smal
  */
+
 int get_endianness(void)
 {
-	unsigned long int n = 1;
+	unsigned int x;
+	char *c;
 
-	return (*(char *)&n);
+	x = 1;
+	c = (char *) &x;
+
+	return ((int)*c);
 }
