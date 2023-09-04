@@ -1,28 +1,25 @@
 #include "main.h"
 
 /**
- * read_textfile - read input file
+ * read_textfile - reads text from a file and prints it
+ * @filename: name of file to read
+ * @letters: number of bytes to read
  *
- * @filename: takes file name input
- * @letters: take number of letters
- *
- * Return: bytes or 0 inerror
+ * Return: number bytes read/printed
  */
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int pf;
-	size_t byets;
-	char buf[1024 * 8];
+	int fd;
+	ssize_t bytes;
+	char buf[READ_BUF_SIZE * 8];
 
 	if (!filename || !letters)
 		return (0);
-
-	fd = open(filename, O_RONLY);
+	fd = open(filename, O_RDONLY);
 	if (fd == -1)
 		return (0);
-	byets = read(fd, &buf[0], letters);
-	byets = write(STDOUT_FILENO, &buf[0], byets);
-	close(pf);
-	return (byets);
+	bytes = read(fd, &buf[0], letters);
+	bytes = write(STDOUT_FILENO, &buf[0], bytes);
+	close(fd);
+	return (bytes);
 }
