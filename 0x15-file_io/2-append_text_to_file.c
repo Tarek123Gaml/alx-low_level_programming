@@ -15,7 +15,7 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (filename == NULL)
 		return (-1);
-	appendf = open(filename, O_WRONLU | O_APPEND);
+	appendf = open(filename, O_WRONLY | O_APPEND);
 	if (appendf == -1)
 		return (-1);
 	if (text_content == NULL)
@@ -25,3 +25,5 @@ int append_text_to_file(const char *filename, char *text_content)
 	stat = write(appendf, text_content, len);
 	close(appendf);
 	return (stat == -1 ? -1 : 1);
+}
+
